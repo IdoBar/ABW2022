@@ -23,10 +23,10 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
               </span>
             {{ end }}
 
-              {{ .presentation.title }}
+              {{ .presentation.title | safeHTML }}
               <span class="speakers-company">{{ .company }}</span>
             </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
+            <td class="schedule-description">{{ .presentation.description | safeHTML }}</td>
           </tr>
         {{ else }}
           <tr class="schedule-other">

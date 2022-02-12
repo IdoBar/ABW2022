@@ -12,7 +12,7 @@ params:
   Date: "October 15 2022"
   Price: "Only $100" # If your event is free, just comment this line
   Venue: "TBA"
-  Address: "322 Pine Gully Rd, Charles Sturt University NSW 2795"
+  Address: "322 Pine Gully Rd"
   City:  "Wagga Wagga"
   State: "New South Wales"
   Images: ["/img/badge.jpg"]
