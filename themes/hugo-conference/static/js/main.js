@@ -22,7 +22,7 @@
 
         conf.map.geocoder = new google.maps.Geocoder();
 
-        conf.map.latlng = new google.maps.LatLng(0, 0);
+        conf.map.latlng = new google.maps.LatLng(-25.344, 131.036);
 
         conf.map.options = {
             zoom: 16,

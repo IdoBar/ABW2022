@@ -7,16 +7,16 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "Ascochyta Blight Workshop"
-  Description: "Conference description"
-  Date: "October 15 2022"
+  Name: "Ascochyta Blight Workshop 2022" # National Chickpea
+  Description: "The Australian National Chickpea Ascochyta Blight Workshop"
+  Date: "October 12-14 2022"
   Price: "Only $100" # If your event is free, just comment this line
-  Venue: "TBA"
-  Address: "322 Pine Gully Rd, Charles Sturt University NSW 2795"
+  Venue: "Agricultural Institute, Charles Sturt University"
+  Address: "322 Pine Gully Rd" # , Charles Sturt University NSW 2795
   City:  "Wagga Wagga"
   State: "New South Wales"
   Images: ["/img/badge.jpg"]
-  GoogleMapsKey: ""
+  GoogleMapsKey:  "" # enter as environment variable for deployment
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -46,14 +46,14 @@ params:
     link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  ForkButton:
-    repository: "https://github.com/jweslley/hugo-conference/"
+  # ForkButton:
+  #   repository: "https://github.com/jweslley/hugo-conference/"
 
   # List of Sponsors
   Sponsors:
-    - name: "Hugo"
-      logo: "/img/hugo.png"
-      url: "http://gohugo.io"
+    - name: "Grains Research and Development Cooperation"
+      logo: "/img/grdc-logo-vertical.png"
+      url: "https://grdc.com.au"
 
   # List of Partners
   Partners:
@@ -69,15 +69,15 @@ params:
     - name: "Check-in / Breakfast"
       time: "9h00"
 
-    - name: "Linus Torvalds"
-      photo: "/img/speaker.jpg"
+    - name: "Dr. Ido Bar"
+      photo: "/img/Ido_griffith_headshot_rect.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
+      company: "Griffith University"
       link:
-        href: "http://twitter.com/linus"
-        text: "@linus"
+        href: "http://twitter.com/DrIdoBar"
+        text: "@dridobar"
       presentation:
-        title: "Digging into a Linux Kernel"
+        title: "Avirulance Genes and Effector Molecules Repertoire of <i>Ascochyta rabiei</i>"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
         time: "10h00"
 
