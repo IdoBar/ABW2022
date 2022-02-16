@@ -1,4 +1,4 @@
-baseurl: "https://example.org/"
+baseurl: "https://abw2022.netlify.app/"
 title: "Ascochyta Blight Workshop 2022"
 canonifyurls: true
 theme: "hugo-conference"
