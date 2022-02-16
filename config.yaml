@@ -3,19 +3,19 @@ title: "Ascochyta Blight Workshop 2022"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: ""
+GoogleAnalytics: "303826357"
 
 params:
   # Conference info
   Name: "Ascochyta Blight Workshop 2022" # National Chickpea
-  Description: "The Australian National Chickpea Ascochyta Blight Workshop"
+  Description: "Join us at the Australian National Chickpea Ascochyta Blight Workshop 2022, October 12-14 2022, Agricultural Institute Charles Sturt University, 322 Pine Gully Rd Wagga Wagga NSW 2795"
   Date: "October 12-14 2022"
-  Price: "Only $100" # If your event is free, just comment this line
+  # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Agricultural Institute, Charles Sturt University"
   Address: "322 Pine Gully Rd" # , Charles Sturt University NSW 2795
   City:  "Wagga Wagga"
   State: "New South Wales"
-  Images: ["/img/badge.jpg"]
+  Images: ["/img/Twitter_card.png"]
   GoogleMapsKey:  "" # enter as environment variable for deployment
 
   # Active sections on the website to deactivate comment out with '#'
@@ -60,9 +60,9 @@ params:
     - name: "Hugo"
       logo: "/img/hugo.jpg"
       url: "https://gohugo.io"
-    - name: "BrazilJS"
-      logo: "/img/partner.png"
-      url: "http://braziljs.org"
+    - name: "Griffith University"
+      logo: "/img/GRIFF_INT3_CNT_2-RGB.png"
+      url: "https://www.griffith.edu.au"
 
   # The entire schedule
   Schedule:
