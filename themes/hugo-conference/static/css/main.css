@@ -11,7 +11,7 @@
 img,
 input,
 label {
-  vertical-align: middle;
+  vertical-align: top;
 }
 h1,
 h2,
@@ -44,8 +44,9 @@ video {
 audio:not([controls]) {
   display: none;
 }
-[hidden] {
-  display: none;
+hidden {
+    visibility: hidden;
+/*  display: none; */
 }
 html {
   font-size: 100%;
@@ -272,6 +273,62 @@ hr {
 .clear {
   clear: both;
 }
+
+/* =============================================================================
+   FORM STYLES, see https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+
+
+input[type=text],
+input[type=email]{
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=bot-field] {
+  display: none;
+}
+
+.form-container {
+  font-size: 1.6em;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
 /* =============================================================================
    MAIN LAYOUT
    ========================================================================== */
@@ -286,6 +343,8 @@ hr {
 .content section {
   padding-top: 50px;
 }
+
+
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
@@ -497,7 +556,17 @@ nav {
 .control-group-email {
   margin-right: 0;
 }
-.form input[type=text],
+.form input[type=text]{
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20px;
+  padding: 12px;
+  font-size: 16px;
+},
 .form input[type=email],
 .form textarea {
   -moz-box-sizing: border-box;

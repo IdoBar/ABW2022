@@ -1,13 +1,13 @@
 baseurl: "https://abw2022.netlify.app/"
-title: "Ascochyta Blight Workshop 2022"
+title: "Chickpea Ascochyta Blight Workshop 2022"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "G-QPLB6PJSJE"
+GoogleAnalytics: "3250625849"
 
 params:
   # Conference info
-  Name: "Ascochyta Blight Workshop 2022" # National Chickpea
+  Name: "Chickpea Ascochyta Blight Workshop 2022" # National Chickpea
   Description: "Join us at the Australian National Chickpea Ascochyta Blight Workshop 2022, October 12-14 2022, Agricultural Institute Charles Sturt University, 322 Pine Gully Rd Wagga Wagga NSW 2795"
   Date: "October 12-14 2022"
   # Price: "Only $100" # If your event is free, just comment this line
