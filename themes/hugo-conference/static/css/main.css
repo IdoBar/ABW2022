@@ -320,6 +320,9 @@ input[type=bot-field] {
 }
 
 .form-container {
+  max-width: 500px;
+  margin: auto;
+/*  float: left; */
   font-size: 1.6em;
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -851,7 +854,7 @@ nav {
   background: #e7e7e7;
   border: 1px solid #ccc;
   border-radius: 4px;
-  height: 300px;
+  height: 500px;
 }
 /* =============================================================================
    SPEAKER
