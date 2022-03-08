@@ -81,18 +81,20 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+    - name: "TBA"
+      time: "9h00-17h00"
 
     - name: "Dr. Ido Bar"
       photo: "/img/Ido_griffith_headshot_rect.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+      bio: "Originally from Israel, I arrived to Australia in 2011 for a PhD at the University of the Sunshine Coast, developing surrogate biotechnology for the bluefin tuna industry, using advanced molecular and genomics methods. I joined Griffith University in 2016 as a postdoc, which quickly evolved to a lecturer (Biosciences) and research fellow position at the Centre for Planetary Health and Food Security. I bring comprehensive knowledge, skills and expertise in molecular biology, genomics and bioinformatics to study crop and pathogen genomics, crop-pathogen molecular interactions and to develop novel pathogen diagnostics methods. I aspire to develop applied research solutions in tight collaboration with the agriculture and aquaculture industries to overcome diseases and other production bottlenecks to help future food security."
       company: "Griffith University"
       link:
         href: "http://twitter.com/DrIdoBar"
         text: "@dridobar"
       presentation:
-        title: "Avirulance Genes and Effector Molecules Repertoire of <i>Ascochyta rabiei</i>"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
+       title: "Avirulance Genes and Effector Molecules Repertoire of <i>Ascochyta rabiei</i>"
+       description: "TBA"
+       time: "10h00"
 
+  ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+  
