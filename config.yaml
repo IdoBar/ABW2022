@@ -8,11 +8,11 @@ GoogleAnalytics: "3250625849"
 params:
   # Conference info
   Name: "Chickpea Ascochyta Blight Workshop 2022" # National Chickpea
-  Description: "Join us at the Australian National Chickpea Ascochyta Blight Workshop 2022, October 12-14 2022, Agricultural Institute Charles Sturt University, 322 Pine Gully Rd Wagga Wagga NSW 2795"
+  Description: "Join us at the Australian National Chickpea Ascochyta Blight Workshop 2022, October 12-14 2022, Charles Sturt University Convention Centre, 286 Pine Gully Rd Wagga Wagga NSW 2795"
   Date: "October 12-14 2022"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Agricultural Institute, Charles Sturt University"
-  Address: "322 Pine Gully Rd" # , Charles Sturt University NSW 2795
+  Venue: "Charles Sturt University Convention Centre"
+  Address: "286 Pine Gully Rd" # , Charles Sturt University NSW 2795
   City:  "Wagga Wagga"
   State: "New South Wales"
   Images: ["/img/Twitter_card.png"]
@@ -41,12 +41,12 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Register now!"
-    link: "http://register.example.com"
+#  CallToAction:
+#    text: "Register now!"
+#    link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  # ForkButton:
+#   ForkButton:
   #   repository: "https://github.com/jweslley/hugo-conference/"
 
   # List of Sponsors
@@ -81,20 +81,33 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "TBA"
-      time: "9h00-17h00"
+    - name: "Field Day"
+      time: "Wednesday 12 October"
+  #    description: "Field day organised by the NSW Department of Primary Industries (DPI), to be held concurrently with participants of the National Plant Pathology meeting"
+      
+    - name: "Scientific Program - Day 1"
+      time: "Thursday 13 October"
+  #    description: "Day 1 of the program will include a keynote presentation and oral persentations""
+      
+    - name: "Social Dinner"
+      time: "Thursday 13 October, 18h30"
+  #    description: "Mingle, socialise and network at the social dinner"
+      
+    - name: "Scientific Program - Day 2"
+      time: "Friday 12 October"
+  #    description: "Day 2 of the program will include a keynote presentation and oral persentations"
 
-    - name: "Dr. Ido Bar"
-      photo: "/img/Ido_griffith_headshot_rect.jpg"
-      bio: "Originally from Israel, I arrived to Australia in 2011 for a PhD at the University of the Sunshine Coast, developing surrogate biotechnology for the bluefin tuna industry, using advanced molecular and genomics methods. I joined Griffith University in 2016 as a postdoc, which quickly evolved to a lecturer (Biosciences) and research fellow position at the Centre for Planetary Health and Food Security. I bring comprehensive knowledge, skills and expertise in molecular biology, genomics and bioinformatics to study crop and pathogen genomics, crop-pathogen molecular interactions and to develop novel pathogen diagnostics methods. I aspire to develop applied research solutions in tight collaboration with the agriculture and aquaculture industries to overcome diseases and other production bottlenecks to help future food security."
-      company: "Griffith University"
-      link:
-        href: "http://twitter.com/DrIdoBar"
-        text: "@dridobar"
-      presentation:
-       title: "Avirulance Genes and Effector Molecules Repertoire of <i>Ascochyta rabiei</i>"
-       description: "TBA"
-       time: "10h00"
+#    - name: "Dr. Ido Bar"
+#      photo: "/img/Ido_griffith_headshot_rect.jpg"
+#      bio: "Originally from Israel, I arrived to Australia in 2011 for a PhD at the University of the Sunshine Coast, developing surrogate biotechnology for the bluefin tuna industry, using advanced molecular and genomics methods. I joined Griffith University in 2016 as a postdoc, which quickly evolved to a lecturer (Biosciences) and research fellow position at the Centre for Planetary Health and Food Security. I bring comprehensive knowledge, skills and expertise in molecular biology, genomics and bioinformatics to study crop and pathogen genomics, crop-pathogen molecular interactions and to develop novel pathogen diagnostics methods. I aspire to develop applied research solutions in tight collaboration with the agriculture and aquaculture industries to overcome diseases and other production bottlenecks to help future food security."
+#      company: "Griffith University"
+#      link:
+#        href: "http://twitter.com/DrIdoBar"
+#        text: "@dridobar"
+#      presentation:
+#       title: "EXAMPLE: Avirulance Genes and Effector Molecules Repertoire of <i>Ascochyta rabiei</i>"
+#       description: "TBA"
+#       time: "10h00"
 
   ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   
