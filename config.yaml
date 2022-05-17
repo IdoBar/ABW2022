@@ -3,7 +3,7 @@ title: "Chickpea Ascochyta Blight Workshop 2022"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "3250625849"
+GoogleAnalytics: "G-QPLB6PJSJE"
 
 params:
   # Conference info
@@ -110,4 +110,5 @@ params:
 #       time: "10h00"
 
   ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+  
   

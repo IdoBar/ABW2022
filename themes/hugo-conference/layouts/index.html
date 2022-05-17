@@ -12,12 +12,11 @@
   {{ .Hugo.Generator }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-
+  {{ template "_internal/google_analytics.html" . }}
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
   <link rel="stylesheet" type="text/css" href="/css/main.css">
-
 </head>
 <body>
   <div class="global">
@@ -48,6 +47,5 @@
   <script src="/js/main.js"></script>
   {{ end }}
   {{ end }}
-  {{ template "_internal/google_analytics_async.html" . }}
 </body>
 </html>
