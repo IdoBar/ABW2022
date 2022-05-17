@@ -3,7 +3,7 @@ title: "Chickpea Ascochyta Blight Workshop 2022"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "G-QPLB6PJSJE"
+# GoogleAnalytics: "G-QPLB6PJSJE"
 
 params:
   # Conference info
@@ -17,6 +17,8 @@ params:
   State: "New South Wales"
   Images: ["/img/Twitter_card.png"]
   GoogleMapsKey:  "" # enter as environment variable for deployment
+  # Google Analytics 4
+  GoogleAnalyticsID: "" # enter as environment variable for deployment
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page

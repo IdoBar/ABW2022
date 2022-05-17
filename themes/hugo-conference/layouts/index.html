@@ -12,7 +12,9 @@
   {{ .Hugo.Generator }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
-  {{ template "_internal/google_analytics.html" . }}
+  {{ if and (hugo.IsProduction) (.Site.Params.GoogleAnalyticsID) }}
+  {{ partial "analytics-gtag.html" . }}
+  {{ end }}
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
