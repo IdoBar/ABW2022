@@ -10,7 +10,7 @@ params:
   Name: "Chickpea Ascochyta Blight Workshop 2022" # National Chickpea
   Description: "Join us at the Australian National Chickpea Ascochyta Blight Workshop 2022, October 12-14 2022, Charles Sturt University Convention Centre, 286 Pine Gully Rd Wagga Wagga NSW 2795"
   Date: "October 12-14 2022"
-  # Price: "Only $100" # If your event is free, just comment this line
+  # Price: "$300" # If your event is free, just comment this line
   Venue: "Charles Sturt University Convention Centre"
   Address: "286 Pine Gully Rd" # , Charles Sturt University NSW 2795
   City:  "Wagga Wagga"
