@@ -111,6 +111,4 @@ params:
 #       description: "TBA"
 #       time: "10h00"
 
-  ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-  
-  
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
