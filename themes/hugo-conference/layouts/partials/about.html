@@ -18,19 +18,29 @@
 
       <label for="name">Name</label>
     <br>
-      <input type="text" id="name" name="name" placeholder="">
+      <input type="text" id="name" name="name" placeholder="" required>
    <br>
       <label for="organisation">Organisation</label>
     <br>
-      <input type="text" id="organisation" name="organisation" placeholder="">
+      <input type="text" id="organisation" name="organisation" placeholder="" required>
     <br>
       <label for="email">Email</label>
     <br>
-      <input type="email" id="email" name="email" placeholder="">
+      <input type="email" id="email" name="email" placeholder="" required>
+    <br>
+       <label for="theme">Choose a theme:</label>
+
+        <select name="theme" id="theme" required>
+          <option value="host">Understanding 'The Host'</option>
+          <option value="pathogen">Understanding 'The Pathogen'</option>
+          <option value="management">Disease Management</option>
+          <option value="industry">Growers and Industry Updates</option>
+          <option value="control">Innovation and Technology for Disease Controls and Diagnostics</option>
+        </select> 
     <br>
       <label for="abstract">Upload abstract (in Word format, see instructions above)</label>
     <br>
-      <input name="file" type="file" id="abstract" name="abstract" placeholder="Choose file...">
+      <input name="file" type="file" id="abstract" name="abstract" placeholder="Choose file..." required>
     <br>
     <br>
     <input type="submit" value="Submit">

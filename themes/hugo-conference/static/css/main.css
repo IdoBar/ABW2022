@@ -320,7 +320,7 @@ input[type=bot-field] {
 }
 
 .form-container {
-  max-width: 500px;
+  max-width: 550px;
   margin: auto;
 /*  float: left; */
   font-size: 1.6em;
