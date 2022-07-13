@@ -294,6 +294,15 @@ input[type=email]{
   box-sizing: border-box;
 }
 
+input[type=file]{
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
@@ -330,8 +339,14 @@ input[type=bot-field] {
 }
 
 .dis {
-  height: 2em;
-   }
+  height:2em ;
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
 
 .dis option{
   padding:10px 0;
@@ -542,7 +557,7 @@ nav {
   width: 150px;
   height: 150px;
   text-align: center;
-  vertical-align: middle;
+/*  vertical-align: middle;*/
   line-height: 150px;
 }
 /* =============================================================================

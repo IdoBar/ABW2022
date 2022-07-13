@@ -25,6 +25,7 @@ params:
   Sections:
     - about
     - location
+    - abstract
     - speakers
     - schedule
     - sponsors
@@ -35,6 +36,7 @@ params:
   Titles:
     about: "About"
     location: "Location"
+    abstract: "Abstract Submission"
     speakers: "Speakers"
     schedule: "Schedule"
     sponsors: "Sponsors"
