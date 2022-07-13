@@ -312,12 +312,13 @@ label {
 
 input[type=submit] {
   background-color: #4CAF50;
+  float: right;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block;*/
 }
 
 input[type=submit]:hover {
@@ -610,9 +611,7 @@ nav {
 .form textarea {
   height: 300px;
 }
-.form .btn {
-  float: right;
-}
+
 
 /* =============================================================================
    Media Queries
@@ -684,6 +683,7 @@ nav {
   }
   .form .btn {
     margin-bottom: 50px;
+    background-color: #4CAF50;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -836,8 +836,8 @@ nav {
 .call-action-area .price {
   color: #fddd52;
 }
-.call-action-area .call-action-link,
-.btn {
+/* .btn */
+.call-action-area .call-action-link {
   background-color: #fddd52;
   background-image: -moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);
   background-image: -webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);
@@ -976,6 +976,16 @@ nav {
 .form textarea:focus {
   border-color: #aaa;
   outline: 0;
+}
+.form .btn {
+  float: right;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1.6em;
+  border-radius: 4px;
+  cursor: pointer;
 }
 /* =============================================================================
    Media Queries
