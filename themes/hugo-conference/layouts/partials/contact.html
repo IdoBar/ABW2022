@@ -1,7 +1,8 @@
 <h2 class="section-title">{{ .titles.contact }}</h2>
 
 <p>Use the form below to reach out to the organising committee with any questions, enquiries or issues.</p>
-<form method="post" action="contact.php" id="form" class="form">
+<form data-netlify="true" netlify-honeypot="bot-field" id="form" class="form" name="contact">
+  <input type="bot-field" name="bot-field" >
   <div class="control-group control-group-name">
     <label for="name">Name</label>
     <input type="text" name="name" id="name" placeholder="Your name">
@@ -14,5 +15,5 @@
     <label for="message">Message</label>
   <textarea name="" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
   </div>
-  <input class="btn" type="submit" value="Send">
+  <input class="send-btn" type="submit" value="Send">
 </form>
