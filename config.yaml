@@ -45,9 +45,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-#  CallToAction:
-#    text: "Register now!"
-#    link: "http://register.example.com"
+  CallToAction:
+    text: "Register now!"
+    link: "https://app.secure.griffith.edu.au/griffithpay/chickpea-ascochyta-blight-workshop-2022.html"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
 #   ForkButton:
@@ -98,7 +98,7 @@ params:
   #    description: "Mingle, socialise and network at the social dinner"
       
     - name: "Scientific Program - Day 2"
-      time: "Friday 12 October"
+      time: "Friday 14 October"
   #    description: "Day 2 of the program will include a keynote presentation and oral persentations"
 
 #    - name: "Dr. Ido Bar"
