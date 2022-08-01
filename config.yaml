@@ -2,7 +2,6 @@ baseurl: "https://abw2022.netlify.app/"
 title: "Chickpea Ascochyta Blight Workshop 2022"
 canonifyurls: true
 theme:
-  - hugo-dynamic-tabs
   - hugo-conference
 # theme: "hugo-conference"
 
