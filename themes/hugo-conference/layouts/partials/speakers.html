@@ -10,8 +10,8 @@
     {{ end }}
 
     <h3 class="speech-title">
-      {{ with .presentation.time }}
-      <span class="speech-time">{{ . }}</span>
+      {{ with .presentation }}
+      <span class="speech-time">{{ .day }}: {{ .time }}</span>
       {{ end }}
       <span>{{ .presentation.title | safeHTML }}</span>
     </h3>

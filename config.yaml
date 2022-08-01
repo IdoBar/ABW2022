@@ -1,7 +1,10 @@
 baseurl: "https://abw2022.netlify.app/"
 title: "Chickpea Ascochyta Blight Workshop 2022"
 canonifyurls: true
-theme: "hugo-conference"
+theme:
+  - hugo-dynamic-tabs
+  - hugo-conference
+# theme: "hugo-conference"
 
 # GoogleAnalytics: "G-QPLB6PJSJE"
 
@@ -45,9 +48,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Register now!"
-    link: "https://app.secure.griffith.edu.au/griffithpay/chickpea-ascochyta-blight-workshop-2022.html"
+  # CallToAction:
+  #   text: "Register now!"
+  #   link: "https://app.secure.griffith.edu.au/griffithpay/chickpea-ascochyta-blight-workshop-2022.html"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
 #   ForkButton:
@@ -86,31 +89,97 @@ params:
   # The entire schedule
   Schedule:
     - name: "Field Day"
-      time: "Wednesday 12 October"
-  #    description: "Field day organised by the NSW Department of Primary Industries (DPI), to be held concurrently with participants of the National Plant Pathology meeting"
+      day: "Wed 12 Oct"
+      time: "9:00-15:00"
+      description: "Field day organised by the NSW Department of Primary Industries (DPI), to be held concurrently with participants of the National Plant Pathology meeting"
       
-    - name: "Scientific Program - Day 1"
-      time: "Thursday 13 October"
-  #    description: "Day 1 of the program will include a keynote presentation and oral persentations""
+    - name: "Opening Address"
+      day: "Thu 13 Oct"
+      time: "9:00-9:10"
+      description: "Opening address and house keeping"
+
+    - name: "Industry Overview"
+      day: "Thu 13 Oct"
+      time: "9:10-9:25"
+      description: "Overview of the Australian chickpea industry"
+
+    - name: "Prof. Bunyamin Tar'an"
+      photo: "/img/bunyamin_taran_cropped.jpg"
+      bio: "Ministry of Agriculture Strategic Research Program (SRP) Chair in Chickpea and Flax Breeding and Genetics."
+      company: "University of Saskatchewan"
+      link:
+        href: "https://agbio.usask.ca/faculty-and-staff/people-pages/bunyamin-taran.php"
+        text: "Research Profile"
+      presentation:
+        title: "Keynote Presentation"
+        description: "Story of *Ascochyta rabiei*"
+        day: "Thu 13 Oct"
+        time: "9:25-9:55"
+
+    - name: "Keynote Q&A"
+      day: "Thu 13 Oct"
+      time: "9:55-10:10"
+      description: "Keynote presentation questions and discussion"
+
+    - name: "Morning Tea"
+      day: "Thu 13 Oct"
+      time: "10:10-10:40"
+      description: "Morning tea, meet and greet"
+
+    - name: "'Understanding the Host' session"
+      day: "Thu 13 Oct"
+      time: "10:40-12:30"
+      description: "Oral persentations focusing on the host (chickpea) perspective (10 or 20 mis each)"
+
+    - name: "Lunch"
+      day: "Thu 13 Oct"
+      time: "12:30-13:30"
+      description: "Lunch and networking"
+
+    - name: "'Understanding the Pathogen' session"
+      day: "Thu 13 Oct"
+      time: "13:30-15:00"
+      description: "Oral persentations focusing on the pathgen (*Ascochyta rabiei*) perspective (10 or 20 mis each)"
+
+    - name: "Afternoon Tea"
+      day: "Thu 13 Oct"
+      time: "15:00-15:20"
+      description: "Afternoon tea and networking"
+
+    - name: "'Disease Management' session"
+      day: "Thu 13 Oct"
+      time: "15:20-17:00"
+      description: "Oral persentations on Disease Management (10 or 20 mis each)"
       
     - name: "Social Dinner"
-      time: "Thursday 13 October, 18h30"
-  #    description: "Mingle, socialise and network at the social dinner"
+      day: "Thu 13 Oct"
+      time: "18:30"
+      description: "Dine, mingle, socialise and network at the [The Wild Vine Vineyard](https://www.thewildvine.com.au/)"
       
-    - name: "Scientific Program - Day 2"
-      time: "Friday 14 October"
-  #    description: "Day 2 of the program will include a keynote presentation and oral persentations"
+    - name: "'Disease Control and Diagnostics' session"
+      day: "Fri 14 Oct"
+      time: "9:00-9:40"
+      description: "Oral persentations on Innovation and Technology for Disease Controls and Diagnostics (10 or 20 mis each)"
 
-#    - name: "Dr. Ido Bar"
-#      photo: "/img/Ido_griffith_headshot_rect.jpg"
-#      bio: "Originally from Israel, I arrived to Australia in 2011 for a PhD at the University of the Sunshine Coast, developing surrogate biotechnology for the bluefin tuna industry, using advanced molecular and genomics methods. I joined Griffith University in 2016 as a postdoc, which quickly evolved to a lecturer (Biosciences) and research fellow position at the Centre for Planetary Health and Food Security. I bring comprehensive knowledge, skills and expertise in molecular biology, genomics and bioinformatics to study crop and pathogen genomics, crop-pathogen molecular interactions and to develop novel pathogen diagnostics methods. I aspire to develop applied research solutions in tight collaboration with the agriculture and aquaculture industries to overcome diseases and other production bottlenecks to help future food security."
-#      company: "Griffith University"
-#      link:
-#        href: "http://twitter.com/DrIdoBar"
-#        text: "@dridobar"
-#      presentation:
-#       title: "EXAMPLE: Avirulance Genes and Effector Molecules Repertoire of <i>Ascochyta rabiei</i>"
-#       description: "TBA"
-#       time: "10h00"
+    - name: "'Industry Updates' session"
+      day: "Fri 14 Oct"
+      time: "9:40-10:00"
+      description: "Oral persentations from Growers' and Industry (10 or 20 mis each)"
+
+    - name: "Morning Tea"
+      day: "Fri 14 Oct"
+      time: "10:20-10:50"
+      description: "Morning tea and netwroking"
+
+    - name: "Panel Discussion"
+      day: "Fri 14 Oct"
+      time: "10:50-12:30"
+      description: "Panel discussion and workshop summary"
+
+    - name: "Lunch"
+      day: "Fri 14 Oct"
+      time: "12:30-13:30"
+      description: "Lunch and farewell"
+
 
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
