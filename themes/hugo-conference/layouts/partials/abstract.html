@@ -1,8 +1,9 @@
 <h2 class="section-title">{{ .titles.abstract }}</h2>
 
 <h4>Submission deadline: August 21, 2022</h4>
-<p>Abstract submission is now open for oral presentations (10 or 20 minutes). 
-  <b>Please note that this is a face-to-face event and presenters are expected to attend the workshop in person to deliver their presentations at the venue.</b></p>
+<p>Abstract submission is now open for oral presentations in either of the following formats: 
+<br>&nbsp;&nbsp;&nbsp; 1. In-person presentation at the venue (10 or 20 minutes)
+<br>&nbsp;&nbsp;&nbsp; 2. Pre-recorded flash presentation (5 minutes)
 <p>When preparing your abstract, make sure it includes the following: 
 <br><b>Title</b>, <b>Authors</b>, <b>Affiliations</b>, <b>Keywords</b> (up to 5), <b>Contact email of corresponding author</b>, <b>Abstract body</b> (300 words max), <b>Acknowledgement</b> (optional), <b>References</b> (up to 4 in <a href="https://academia.stackexchange.com/a/149415/124383" target="_blank">'tiny' format</a>). 
 <br>Please use the provided template as a reference - <a href="/img/Abstract_template_ABW22.docx" download>Download Abstract Template</a> </p>
@@ -25,6 +26,14 @@
     <br>
       <input type="email" id="email" name="email" placeholder="" required>
     <br>
+      <label for="format">Presentation format</label>
+    <br>
+        <select class="dis" name="format" id="format" required>
+          <option value="long">In-person 20 minutes presentation</option>
+          <option value="short">In-person 10 minutes presentation</option>
+          <option value="flash">Pre-recorded 5 minutes 'flash' presentation</option>
+        </select> 
+    <br>
        <label for="theme">Which workshop theme your presentation will fit the most?</label>
     <br>
         <select class="dis" name="theme" id="theme" required>
@@ -43,8 +52,7 @@
     <input type="submit" value="Submit">
   </form>
 </div>
-<p>*Disclaimer: The committee reserves the right to accept or reject your abstract and allocate it a time (10 or 20 minutes) in the most appropriate session 
-    as it see fit and according to the final workshop program and schedule.</p>
+<p>*Disclaimer: The committee reserves the right to accept or reject your abstract and allocate it a time (5, 10 or 20 minutes) in the most appropriate session as it sees fit and according to the final workshop program and schedule.</p>
 
 
 

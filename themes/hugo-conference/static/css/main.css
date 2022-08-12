@@ -256,9 +256,9 @@ aside:after,
 figure:after,
 div:after,
 ol:after,
-li:after,
+/*li:after,
+ul:after,*/
 form:after,
-ul:after,
 dl:after {
   content: ".";
   display: block;
@@ -267,6 +267,21 @@ dl:after {
   height: 0;
   overflow: hidden;
 }
+
+.presentation{
+    font-size: 1.6em;
+    content: "";
+    display: list-item;
+    position: absolute;
+}
+
+/*ul li {
+  display: inline-block;
+}
+
+ul li:before {
+  content: "• ";
+}*/
 hr {
   display: none;
 }

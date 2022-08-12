@@ -111,7 +111,7 @@ params:
         text: "Research Profile"
       presentation:
         title: "Keynote Presentation"
-        description: "Story of *Ascochyta rabiei*"
+        description: "TBA"
         day: "Thu 13 Oct"
         time: "9:25-9:55"
 
@@ -123,32 +123,32 @@ params:
     - name: "Morning Tea"
       day: "Thu 13 Oct"
       time: "10:10-10:40"
-      description: "Morning tea, meet and greet"
+      description: "Morning tea, meet and greet, flash presentations"
 
     - name: "'Understanding the Host' session"
       day: "Thu 13 Oct"
       time: "10:40-12:30"
-      description: "Oral persentations focusing on the host (chickpea) perspective (10 or 20 mis each)"
+      description: "Oral persentations focusing on the host (chickpea) perspective (10 or 20 min each)"
 
     - name: "Lunch"
       day: "Thu 13 Oct"
       time: "12:30-13:30"
-      description: "Lunch and networking"
+      description: "Lunch and networking, flash presentations"
 
     - name: "'Understanding the Pathogen' session"
       day: "Thu 13 Oct"
       time: "13:30-15:00"
-      description: "Oral persentations focusing on the pathgen (*Ascochyta rabiei*) perspective (10 or 20 mis each)"
+      description: "Oral persentations focusing on the pathgen (*Ascochyta rabiei*) perspective (10 or 20 min each)"
 
     - name: "Afternoon Tea"
       day: "Thu 13 Oct"
       time: "15:00-15:20"
-      description: "Afternoon tea and networking"
+      description: "Afternoon tea and networking, flash presentations"
 
     - name: "'Disease Management' session"
       day: "Thu 13 Oct"
       time: "15:20-17:00"
-      description: "Oral persentations on Disease Management (10 or 20 mis each)"
+      description: "Oral persentations on Disease Management (10 or 20 min each)"
       
     - name: "Social Dinner"
       day: "Thu 13 Oct"
@@ -158,17 +158,17 @@ params:
     - name: "'Disease Control and Diagnostics' session"
       day: "Fri 14 Oct"
       time: "9:00-9:40"
-      description: "Oral persentations on Innovation and Technology for Disease Controls and Diagnostics (10 or 20 mis each)"
+      description: "Oral persentations on Innovation and Technology for Disease Controls and Diagnostics (10 or 20 min each)"
 
     - name: "'Industry Updates' session"
       day: "Fri 14 Oct"
       time: "9:40-10:00"
-      description: "Oral persentations from Growers' and Industry (10 or 20 mis each)"
+      description: "Oral persentations from Growers' and Industry (10 or 20 min each)"
 
     - name: "Morning Tea"
       day: "Fri 14 Oct"
       time: "10:20-10:50"
-      description: "Morning tea and netwroking"
+      description: "Morning tea and netwroking, flash presentations"
 
     - name: "Panel Discussion"
       day: "Fri 14 Oct"
