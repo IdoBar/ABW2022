@@ -374,6 +374,7 @@ input[type=bot-field] {
    ========================================================================== */
 .wrapper {
   margin: 0 auto;
+  /*width: 80%;*/
   width: 960px;
   position: relative;
 }
@@ -476,12 +477,28 @@ nav {
 .btn:focus {
   top: 0;
 }
+
+/* =============================================================================
+   TWITTER
+   ========================================================================== */
+.twitter {
+  /*padding: 50px ;/*80% 5% 0;*/
+  float: right; 
+  position: absolute;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 80%;
+  width: 100%;
+  z-index: 5;
+  /* border: 1px solid rgb(124, 124, 124);*/
+  border-radius: 4px;
+}
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
   padding: 19px;
-  margin: 0 -20px 0;
+  margin: 0 0 0;
 }
 /* =============================================================================
    SPEAKER
@@ -638,20 +655,61 @@ nav {
 /* =============================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (max-width: 1024px) {
+
+   @media only screen and (min-width: 1025px) and (max-width: 1600px) {
+    .content {
+      width: 60%;
+      float: left;
+      display: inline-block;
+      margin-left: 10px;
+      
+    }
+    .twitter {
+      /*padding: 50px ;/*80% 5% 0;*/
+      float: right; 
+      position: absolute;
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-left: 75%;
+      width: 100%;
+      z-index: 5;
+      /* border: 1px solid rgb(124, 124, 124);*/
+      border-radius: 4px;
+    }
+  }
+   @media only screen and (max-width: 1024px) {
   .wrapper {
-    width: 100%;
-    padding: 0 20px;
+    width: 90%;
+    padding: 10px;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
+  /* twitter */
+  .twitter {
+    display: none;
+  }
+  /*.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    width: 960px;
+    position: relative;
+  }*/
+  .content {
+    padding: 20px 0;
+  }
   .about {
     margin: 0;
+    padding: 15px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 800px) {
+  /* twitter */
+  .twitter {
+    display: none;
+  }
+  
   /* schedule */
   .schedule-tbl {
     padding: 1px;
@@ -716,6 +774,10 @@ nav {
   }
   .header {
     padding: 20px 0;
+  }
+  /* twitter */
+  .twitter {
+    display: none;
   }
   .logo-name {
     font-size: 3em;

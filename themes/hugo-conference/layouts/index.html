@@ -25,7 +25,9 @@
 
     {{ partial "nav.html" . }}
     {{ partial "header.html" .Site.Params }}
-
+    {{ if isset .Site.Params "twitterfeed" }}
+      {{ partial "twitter.html" .Site.Params }}
+    {{ end }}
     <div class="content" id="content">
       <div class="wrapper">
         {{ range $section := .Site.Params.Sections }}

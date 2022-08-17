@@ -21,6 +21,8 @@ params:
   GoogleMapsKey:  "" # enter as environment variable for deployment
   # Google Analytics 4
   GoogleAnalyticsID: "" # enter as environment variable for deployment
+  # enter a twitter list to follow
+  TwitterFeed: "https://twitter.com/DrIdoBar/lists/1557876531015208960"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
