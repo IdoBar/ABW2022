@@ -130,7 +130,7 @@ params:
     - name: "'Understanding the Host' session"
       day: "Thu 13 Oct"
       time: "10:40-12:30"
-      description: "Oral persentations focusing on the host (chickpea) perspective (10 or 20 min each)"
+      description: "Oral presentations focusing on the host (chickpea) perspective (10 or 20 min each)"
 
     - name: "Lunch"
       day: "Thu 13 Oct"
@@ -140,7 +140,7 @@ params:
     - name: "'Understanding the Pathogen' session"
       day: "Thu 13 Oct"
       time: "13:30-15:00"
-      description: "Oral persentations focusing on the pathgen (*Ascochyta rabiei*) perspective (10 or 20 min each)"
+      description: "Oral presentations focusing on the pathgen (*Ascochyta rabiei*) perspective (10 or 20 min each)"
 
     - name: "Afternoon Tea"
       day: "Thu 13 Oct"
@@ -150,7 +150,7 @@ params:
     - name: "'Disease Management' session"
       day: "Thu 13 Oct"
       time: "15:20-17:00"
-      description: "Oral persentations on Disease Management (10 or 20 min each)"
+      description: "Oral presentations on Disease Management (10 or 20 min each)"
       
     - name: "Social Dinner"
       day: "Thu 13 Oct"
@@ -160,12 +160,12 @@ params:
     - name: "'Disease Control and Diagnostics' session"
       day: "Fri 14 Oct"
       time: "9:00-9:40"
-      description: "Oral persentations on Innovation and Technology for Disease Controls and Diagnostics (10 or 20 min each)"
+      description: "Oral presentations on Innovation and Technology for Disease Controls and Diagnostics (10 or 20 min each)"
 
     - name: "'Industry Updates' session"
       day: "Fri 14 Oct"
       time: "9:40-10:00"
-      description: "Oral persentations from Growers' and Industry (10 or 20 min each)"
+      description: "Oral presentations from Growers' and Industry (10 or 20 min each)"
 
     - name: "Morning Tea"
       day: "Fri 14 Oct"
