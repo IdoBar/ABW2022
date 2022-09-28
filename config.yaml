@@ -93,20 +93,64 @@ params:
       day: "Wed 12 Oct"
       time: "9:00-15:00"
       description: "Field day organised by the NSW Department of Primary Industries (DPI), to be held concurrently with participants of the National Plant Pathology meeting"
-      
+
+  # Friday Oct 13th  
     - name: "Opening Address"
       day: "Thu 13 Oct"
       time: "9:00-9:10"
       description: "Opening address and house keeping"
 
-    - name: "Industry Overview"
-      day: "Thu 13 Oct"
-      time: "9:10-9:25"
-      description: "Overview of the Australian chickpea industry"
+    - name: "Nick Goddard"
+      bio: "CEO"
+      company: "Pulse Australia"
+   #   link:
+   #     href: "https://www.linkedin.com/in/nick-goddard-53a21410"
+   #     text: "LinkedIn"
+      presentation:
+        title: "Industry Overview"
+        day: "Thu 13 Oct"
+        time: "9:10-9:25"
+        description: "Chickpea production in Australia"
+
+    - name: "Kristy Hobson"
+      bio: "Chickpea breeder"
+      company: "NSW Department of Primary Industries"
+  #    link:
+  #      href: "https://www.linkedin.com/in/kristy-hobson-3a35117b"
+  #      text: "LinkedIn"
+      presentation:
+        title: "Industry Overview"
+        day: "Thu 13 Oct"
+        time: "9:25-9:40"
+        description: "Twenty-five years of breeding for Ascochyta resistance in chickpea"
+
+    - name: "Kurt Lindbeck"
+      bio: "Plant Pathologist"
+      company: "NSW Department of Primary Industries"
+ #     link:
+ #       href: "https://www.dpi.nsw.gov.au/about-us/science-and-research/staff/staff-profiles/kurt-lindbeck"
+ #       text: "Profile"
+      presentation:
+        title: "Industry Overview"
+        day: "Thu 13 Oct"
+        time: "9:40-9:50"
+        description: "Update on Ascochyta in East Australia"
+
+    - name: "Jean Galloway"
+      bio: "Senior Research Scientist, Plant Pathology"
+      company: "Department of Primary Industries and Regional Development, WA"
+  #    link:
+  #      href: "https://www.agric.wa.gov.au/jean-galloway"
+  #      text: "Profile"
+      presentation:
+        title: "Industry Overview"
+        day: "Thu 13 Oct"
+        time: "9:50-10:00"
+        description: "Update on Ascochyta in West Australia"
 
     - name: "Prof. Bunyamin Tar'an"
       photo: "/img/bunyamin_taran_cropped.jpg"
-      bio: "Ministry of Agriculture Strategic Research Program (SRP) Chair in Chickpea and Flax Breeding and Genetics."
+      bio: "Ministry of Agriculture Strategic Research Program (SRP) Chair in Chickpea and Flax Breeding and Genetics"
       company: "University of Saskatchewan"
       link:
         href: "https://agbio.usask.ca/faculty-and-staff/people-pages/bunyamin-taran.php"
@@ -115,71 +159,321 @@ params:
         title: "Keynote Presentation"
         description: "An Integrated Approach for Improvement of Ascochyta Blight Resistance in Chickpea"
         day: "Thu 13 Oct"
-        time: "9:25-9:55"
+        time: "10:00-10:30"
 
     - name: "Keynote Q&A"
       day: "Thu 13 Oct"
-      time: "9:55-10:10"
+      time: "10:30-10:45"
       description: "Keynote presentation questions and discussion"
 
     - name: "Morning Tea"
       day: "Thu 13 Oct"
-      time: "10:10-10:40"
-      description: "Morning tea, meet and greet, flash presentations"
+      time: "10:45-11:15"
+      description: "Morning tea, meet and greet"
 
-    - name: "'Understanding the Host' session"
+    - name: "Janine Croser"
+      bio: "Program Leader, Crop Improvement"
+      company: "South Australian Research and Development Institute"
+ #     link:
+ #       href: "https://www.linkedin.com/in/janine-croser-a629b6b3/"
+ #       text: "LinkedIn"
+      presentation:
+        title: "Understanding the Host"
+        day: "Thu 13 Oct"
+        time: "11:15-11:30"
+        description: "Multi-environment screening identifies novel sources of Ascochyta blight resistance in chickpea"
+
+    - name: "Yongjun Li"
+      bio: "Senior Research Scientist"
+      company: "AgriBio, Agriculture Victoria"
+      presentation:
+        title: "Understanding the Host"
+        day: "Thu 13 Oct"
+        time: "11:30-11:50"
+        description: "Genomic selection strategy for improving ascochyta blight resistance and preserving genetic diversity in chickpea prebreeding"
+
+    - name: "Aladdin Hamwieh"
+      bio: "Breeder, Biotechnologist and Egypt Country Manager"
+      company: "ICARDA"
+     # link:
+     #   href: "https://www.icarda.org/about-us/our-experts/aladdin-hamwieh"
+     #   text: "Research Profile"
+      presentation:
+        title: "Understanding the Host"
+        day: "Thu 13 Oct"
+        time: "11:50-12:10"
+        description: "Overview of ICARDA breeding program and multi-location testing of a global collection of elite chickpea genotypes to identify stable sources of resistance to Ascochyta blight"
+
+    - name: "Aladdin Hamwieh"
+      bio: "Breeder, Biotechnologist and Egypt Country Manager"
+      company: "ICARDA"
+      presentation:
+        title: "Understanding the Host"
+        day: "Thu 13 Oct"
+        time: "12:10-12:20"
+        description: "Assessment of pathogenicity assay of *Ascochyta rabiei* isolates using chickpea differential genotypes"
+
+    - name: "Nicole Dron"
+      bio: "Research Officer"
+      company: "NSW Department of Primary Industries"
+      presentation:
+        title: "Understanding the Host"
+        day: "Thu 13 Oct"
+        time: "12:20-12:30"
+        description: "Yield response to ascochyta blight in a historic collection of chickpea varieties"
+
+    - name: "Bhanu Kalia"
+      bio: "Research Scientist (Plant Pathology)"
+      company: "Agriculture Victoria"
+      presentation:
+        title: "Understanding the Host"
+        day: "Thu 13 Oct"
+        time: "12:30-12:40"
+        description: "Comparison of phenotyping methodology for Ascochyta blight of chickpeas in three environments"
+
+    - name: "Discussion"
       day: "Thu 13 Oct"
-      time: "10:40-12:30"
-      description: "Oral presentations focusing on the host (chickpea) perspective (10 or 20 min each)"
+      time: "12:40-12:55"
+      description: "Summary and discussion of 'Understanding the Host' session"
+
 
     - name: "Lunch"
       day: "Thu 13 Oct"
-      time: "12:30-13:30"
-      description: "Lunch and networking, flash presentations"
+      time: "12:55-13:55"
+      description: "Lunch and networking"
 
-    - name: "'Understanding the Pathogen' session"
+    - name: "Robert Lee"
+      bio: "Research Fellow"
+      company: "Centre for Crop and Disease Management, Curtin University"
+      # link: https://www.ccdm.com.au/people/robert-lee/
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "13:55-14:15"
+        description: "Genomic studies of *Ascochyta rabiei* in Australia"
+
+    - name: "Ido Bar"
+      bio: "Research Fellow (Crop and Pathogen Genomics)"
+      company: "Griffith University"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "14:15-14:25"
+        description: "Comparative genomics reveals key genetic polymorphism associated with increased aggressiveness in Australian *Ascochyta rabiei*"
+
+    - name: "Niloofar Vaghefi"
+      bio: "Senior Lecturer (Plant Pathology)"
+      company: "university of Melbourne"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "14:25-14:35"
+        description: "Temporal and spatial population genomic studies of *Ascochyta rabiei* in Australia"
+
+    - name: "Ahsan Asif"
+      bio: "Research Officer (Chickpea Breeding)"
+      company: "NSW Department of Primary Industries"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "14:35-14:45"
+        description: "Identification of resistance to aggressive *Ascochyta rabiei* isolates in Australian chickpea breeding lines using a novel screening protocol"
+
+    - name: "Hediyeh Tahghighi"
+      bio: "Research Assistant"
+      company: "Centre for Crop and Disease Management, Curtin University"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "14:45-14:50"
+        description: "Pathogenicity assay for *Ascochyta rabiei* on chickpea"
+
+    - name: "Matin Ghaheri"
+      bio: "PhD candidate"
+      company: "Griffith University"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "14:50-14:55"
+        description: "Isolation and characterisation of *Ascochyta rabiei* exosomes"
+
+    - name: "Bethany Clark"
+      bio: "Research Assistant"
+      company: "Centre for Crop and Disease Management, Curtin University"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "14:55-15:00"
+        description: "Towards the discovery of effector genes in *Ascochyta rabiei*, using a bi-parental fungal mapping population approach"
+
+    - name: "Upasana Rani"
+      bio: "Principal Plant Pathologist (Pulses)"
+      company: "Punjab Agricultural University"
+      # link: "https://www.pau.edu/coa/index.php?_act=manageDepartments&DO=viewFacultyData&intFacultyID=273&intDepTitleID=21&intLinkID=9&strDepTitle=Faculty"
+      presentation:
+        title: "Understanding the Pathogen"
+        day: "Thu 13 Oct"
+        time: "15:00-15:05"
+        description: "Occurrence of Ascochyta Blight of Chickpea in North-Western Plain Zones of India"
+
+    - name: "Discussion"
       day: "Thu 13 Oct"
-      time: "13:30-15:00"
-      description: "Oral presentations focusing on the pathgen (*Ascochyta rabiei*) perspective (10 or 20 min each)"
+      time: "15:05-15:20"
+      description: "Summary and discussion of 'Understanding the Pathogen' session"
+
 
     - name: "Afternoon Tea"
       day: "Thu 13 Oct"
-      time: "15:00-15:20"
-      description: "Afternoon tea and networking, flash presentations"
+      time: "15:20-15:40"
+      description: "Afternoon tea and networking"
 
-    - name: "'Disease Management' session"
+    - name: "Abdulqader Jighly"
+      bio: "Research Scientist"
+      company: "AgriBio, Agriculture Victoria"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "15:40-16:00"
+        description: "MetaAB: an initiative to integrate World-wide Chickpea Ascochyta Blight reference populations without sharing raw data"
+
+    - name: "Florian Tanner"
+      bio: "PhD candidate"
+      company: "University of Adelaide"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "16:00-16:10"
+        description: "Sensor-based phenotyping methods for resistance breeding of chickpea "
+    
+    - name: "Rohan Kimber"
+      bio: "Research Scientist"
+      company: "South Australian Research and Development Institute"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "16:10-16:20"
+        description: "Tracing airborne inoculum of *Phoma rabiei* using the iMapPESTS surveillance system"
+
+    - name: "Shamsul Hoque"
+      bio: "Research Technician"
+      company: "CSIRO"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "16:20-16:30"
+        description: "A unique marker for non-subjective detection and quantification of *Ascochyta rabiei*, the fungal pathogen of chickpea (*Cicer arietinum*)"
+
+    - name: "Ido Bar"
+      bio: "Research Fellow (Crop and Pathogen Genomics)"
+      company: "Griffith University"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "16:30-16:35"
+        description: "Asco dashboard -- an online interactive tool for exploring and investigating *Ascochyta rabiei* in Australia"
+
+    - name: "Michelle Hubbard"
+      bio: "Research Scientist (Pulse Pathology)"
+      company: "Agriculture and Agri-Food Canada"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "16:35-16:40"
+        description: "Chickpea/flax intercropping as a disease management tool in Canada"
+
+    - name: "Chetan Raval"
+      bio: ""
+      company: "Griffith University"
+      presentation:
+        title: "Innovation and Technology for Disease Controls and Diagnostics"
+        day: "Thu 13 Oct"
+        time: "16:40-16:45"
+        description: "Image-based quantitative assessment of Ascochyta Blight disease symptoms in Chickpea seedlings"
+
+    - name: "Discussion"
       day: "Thu 13 Oct"
-      time: "15:20-17:00"
-      description: "Oral presentations on Disease Management (10 or 20 min each)"
+      time: "16:45-17:00"
+      description: "Summary and discussion of 'Innovation and Technology for Disease Controls and Diagnostics' session"
+
       
     - name: "Social Dinner"
       day: "Thu 13 Oct"
       time: "18:30"
       description: "Dine, mingle, socialise and network at the [The Wild Vine Vineyard](https://www.thewildvine.com.au/)"
       
-    - name: "'Disease Control and Diagnostics' session"
-      day: "Fri 14 Oct"
-      time: "9:00-9:40"
-      description: "Oral presentations on Innovation and Technology for Disease Controls and Diagnostics (10 or 20 min each)"
 
-    - name: "'Industry Updates' session"
+    - name: "Asrat Zewdie Ejeta"
+      bio: "Plant Pathologist"
+      company: "Ethiopian Institute of Agricultural Research, Debre Zeit Agricultural Research Center"
+      presentation:
+        title: "Disease Management"
+        day: "Fri 14 Oct"
+        time: "9:00-9:20"
+        description: "Management of chickpea Ascochyta Blight (*Didymella rabiei*) under field in Ethiopia"
+
+    - name: "Luke Barrett"
+      bio: "Senior Research Scientist"
+      company: "CSIRO"
+      presentation:
+        title: "Disease Management"
+        day: "Fri 14 Oct"
+        time: "9:20-9:40"
+        description: "Cultivar and fungicide influence levels of inoculum carryover in *Ascochyta rabiei*"
+
+    - name: "Joshua Fanning"
+      bio: "Senior Research Scientist "
+      company: "Agriculture Victoria"
+      presentation:
+        title: "Disease Management"
+        day: "Fri 14 Oct"
+        time: "9:40-10:00"
+        description: "Effectiveness of curative fungicide strategies and cultivar resistance on the control of Chickpea Ascochyta blight"
+
+    - name: "Paul Melloy"
+      bio: "Research Fellow"
+      company: "University of Queensland"
+      presentation:
+        title: "Disease Management"
+        day: "Fri 14 Oct"
+        time: "10:00-10:10"
+        description: "AscotraceR: an R package for simulating in-paddock spatiotemporal spread of Ascochyta blight"
+
+    - name: "Elizabeth Berenik"
+      bio: "MSC candidate"
+      company: "University of Saskatchewan"
+      presentation:
+        title: "Disease Management"
+        day: "Fri 14 Oct"
+        time: "10:10-10:20"
+        description: "Diversifying Sources for Resistance to Ascochyta Blight in Chickpea"
+
+    - name: "Sara Blake"
+      bio: "Senior Research Officer (Plant Pathology)"
+      company: "South Australian Research and Development Institute"
+      presentation:
+        title: "Disease Management"
+        day: "Fri 14 Oct"
+        time: "10:20-10:25"
+        description: "Growers have multiple fungicide options available for "
+
+    - name: "Discussion"
       day: "Fri 14 Oct"
-      time: "9:40-10:00"
-      description: "Oral presentations from Growers' and Industry (10 or 20 min each)"
+      time: "10:25-10:45"
+      description: "Summary and discussion of 'Disease Management' session"
 
     - name: "Morning Tea"
       day: "Fri 14 Oct"
-      time: "10:20-10:50"
-      description: "Morning tea and netwroking, flash presentations"
+      time: "10:45-11:15"
+      description: "Morning tea and netwroking"
 
-    - name: "Panel Discussion"
+    - name: "Panel Discussion and Workshop Summary"
       day: "Fri 14 Oct"
-      time: "10:50-12:30"
-      description: "Panel discussion and workshop summary"
+      time: "11:15-12:15"
+      description: "Panel chair: Francis Francis Ogbonnaya (GRDC); Panel members: Rebecca Ford (Griffith), Kristy Hobson (CBA), Aladdin Hamwieh (ICARDA), Bunyamin Tar'an (UoS), Susie Sprague (CSIRO)"
 
     - name: "Lunch"
       day: "Fri 14 Oct"
-      time: "12:30-13:30"
+      time: "12:25-13:05"
       description: "Lunch and farewell"
 
 
